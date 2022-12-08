@@ -51,7 +51,7 @@ function check() {
         
     for (pos of posicao) {
         if (pos.every((item) => items.includes(item))){
-            alert("O JOGADOR ", ultimaJogada, "GANHOU!");
+            alert("O JOGADOR " + ultimaJogada + " GANHOU!");
             init();
             return;
         }
